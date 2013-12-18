@@ -12,9 +12,11 @@ platform-specific API.
 ## `local gl = require'winapi.gl11'`
 ## `local gl = require'winapi.gl21'`
 
-Get an OpenGL 1.1 or 2.1 namespace. Functions are discovered automatically through WGL and their pointers memoized for later calls.
+Get an OpenGL 1.1 or 2.1 namespace. Functions are discovered automatically through WGL and their
+pointers memoized for later calls.
 
-Below are the function prototypes and constants that are accessible in the `gl` namespace depending on which version you load:
+Below are the function prototypes and constants that are accessible in the `gl` namespace depending on
+which OpenGL version you load:
 
   * [common OpenGL C types][gl_types]
   * [OpenGL 1.1 constants][gl_consts11]
@@ -25,8 +27,8 @@ Below are the function prototypes and constants that are accessible in the `gl` 
 
 ## `local glu = require'glu'`
 
-The [GLU API](/opengl/glu_h.lua) contains auxiliary utilities that let you set a perspective transform or an orthogonal
-transform or move the camera, among other things. [glu_lua] implements a few of these
+The [GLU API](/opengl/glu_h.lua) contains auxiliary utilities that let you set a perspective transform
+or an orthogonal transform or move the camera, among other things. [glu_lua] implements a few of these
 for environments that don't have a GLU implementation.
 
 ## `local glut = require'glut'`
