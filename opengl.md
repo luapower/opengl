@@ -1,6 +1,6 @@
 ---
 project: opengl
-tagline: opengl Lua+ffi bindings
+tagline: OpenGL Lua+ffi bindings
 ---
 
 The OpenGL API is not usually found in a OS as a straight C library, or at least not all of it is.
@@ -47,6 +47,11 @@ For a straight application of the WGL API see module [winapi.wglpanel].
 ## `require'winapi.wglext'`
 
 The [WGLEXT API][winapi.wglext] provides various Windows-specific OpenGL extensions.
+
+## TODO
+
+  * make OpenGL constants C enums and access them through a proxy table into ffi.C.
+  * make a binding to regal instead, which should be faster or at least more memory efficient.
 
 
 [gl_types]:     https://github.com/capr/opengl/blob/master/gl_types.lua
