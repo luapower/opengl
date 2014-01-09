@@ -34,7 +34,7 @@ for environments that don't have a GLU implementation.
 
 ## `local glut = require'glut'`
 
-The [GLUT API][glut] lets you render the Utah Teapot (other stuff not included).
+The [GLUT API] lets you render the Utah Teapot (other stuff not included).
 
 ## `local wgl = require'winapi'`
 ## `require'winapi.wgl'`
@@ -55,14 +55,14 @@ The [WGLEXT API][winapi.wglext] provides various Windows-specific OpenGL extensi
   * make a binding to regal instead, which should be faster or at least more memory efficient.
 
 
-[gl_types]:     https://github.com/capr/opengl/blob/master/gl_types.lua
-[gl_consts11]:  https://github.com/capr/opengl/blob/master/gl_consts11.lua
-[gl_funcs11]:   https://github.com/capr/opengl/blob/master/gl_funcs11.lua
-[gl_consts21]:  https://github.com/capr/opengl/blob/master/gl_consts21.lua
-[gl_funcs21]:   https://github.com/capr/opengl/blob/master/gl_funcs21.lua
-[glut]:         https://github.com/capr/opengl/blob/master/glut.lua
-[glu_lua]:      https://github.com/capr/opengl/blob/master/glu_lua.lua
+[gl_types]:     https://github.com/luapower/opengl/blob/master/gl_types.lua
+[gl_consts11]:  https://github.com/luapower/opengl/blob/master/gl_consts11.lua
+[gl_funcs11]:   https://github.com/luapower/opengl/blob/master/gl_funcs11.lua
+[gl_consts21]:  https://github.com/luapower/opengl/blob/master/gl_consts21.lua
+[gl_funcs21]:   https://github.com/luapower/opengl/blob/master/gl_funcs21.lua
+[glut api]:     https://github.com/luapower/opengl/blob/master/glut.lua
+[glu_lua]:      https://github.com/luapower/opengl/blob/master/glu_lua.lua
 
-[winapi.wgl]:       https://github.com/capr/winapi/blob/master/winapi/wgl.lua
-[winapi.wglext]:    https://github.com/capr/winapi/blob/master/winapi/wglext.lua
-[winapi.wglpanel]:  https://github.com/capr/winapi/blob/master/winapi/wglpanel.lua
+[winapi.wgl]:       https://github.com/luapower/winapi/blob/master/winapi/wgl.lua
+[winapi.wglext]:    https://github.com/luapower/winapi/blob/master/winapi/wglext.lua
+[winapi.wglpanel]:  https://github.com/luapower/winapi/blob/master/winapi/wglpanel.lua
