@@ -1,7 +1,6 @@
 ---
 project:     opengl
 tagline:     OpenGL Lua+ffi bindings
-category:    3D Graphics
 ---
 
 The OpenGL API is not usually found in a OS as a straight C library, or at least not all of it is.
