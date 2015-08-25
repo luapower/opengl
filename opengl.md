@@ -1,5 +1,4 @@
 ---
-project: opengl
 tagline: OpenGL C API
 ---
 
